@@ -1,7 +1,15 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
-
+/*
+  if i is divisible by 3 and 5 , assign FizzBuzz
+  if i is divisible by 3 , assign Fizz
+  if i is divisible by 5 , assign Buzz
+  else assign i 
+  
+  Sample input : 5
+  Sample output: ["1","2","Fizz","4","Buzz"]
+*/
 class resString{    
     public:
        string s;
