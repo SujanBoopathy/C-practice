@@ -34,4 +34,5 @@ int main(){
         obj[i].func(i); 
     for(i=0;i<n;i++)
         cout<<"\n"<<obj[i].s;   
+    return 0;
 }
