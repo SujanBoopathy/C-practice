@@ -8,7 +8,7 @@ int main(){
     int arr[line][line];
     for(int i=0;i<line;i++){
         for(int j=0;j<=i;j++){
-            if(j==0 || i==j)  arr[i][j]=1;
+            if(j==0 || i==j) { arr[i][j]=1;}
             else{
                 arr[i][j]=arr[i-1][j-1]+arr[i-1][j];
             }
