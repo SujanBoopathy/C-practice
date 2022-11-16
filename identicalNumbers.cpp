@@ -9,7 +9,7 @@ bool checkSimilar(int arr[],int n){
     return false;
 }
 
-int main()
+void main()
 {
     int n;
     cout<<"Enter size :"<<endl;cin>>n;
@@ -18,6 +18,6 @@ int main()
     for(int i=0;i<n;i++)
         cin>>numsArray[i];   
     checkSimilar(numsArray,n)?cout<<"true":cout<<"false";
-    return 0;
+    
 }
 
