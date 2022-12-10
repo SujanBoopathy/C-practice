@@ -2,8 +2,8 @@
 #include<string.h>
 using namespace std;
 
-int digitOfRoman(char s){
-    switch(s){
+int digitOfRoman(char ch){
+    switch(ch){
         case 'I': return 1; break;
         case 'V': return 5; break;
         case 'X': return 10; break;
