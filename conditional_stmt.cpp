@@ -27,12 +27,12 @@ class resString{
 };
 
 int main(){    
-    int i,n;
-    cout<<"Enter a number :"<<endl;cin>>n;
-    resString obj[n];
-    for(i=0;i<n;i++)
+    int i,size;
+    cout<<"Enter a number :"<<endl;cin>>size;
+    resString obj[size];
+    for(i=0;i<size;i++)
         obj[i].func(i); 
-    for(i=0;i<n;i++)
+    for(i=0;i<size;i++)
         cout<<"\n"<<obj[i].s;   
     return 0;
 }
