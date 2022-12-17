@@ -4,8 +4,8 @@ using namespace std;
 int main(){
     int line;
     cout<<"Enter no of rows : "<<endl;cin>>line;
-    // int *arr=new int(line*line);
-    int arr[line][line];
+    int *arr=new int(line*line);
+    //int arr[line][line];
     for(int i=0;i<line;i++){
         for(int j=0;j<=i;j++){
             if(j==0 || i==j) { arr[i][j]=1;}
